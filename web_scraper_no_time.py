@@ -51,8 +51,8 @@ while len(all_links) > 0:
 
 #show page text for each link/page
 page_text = get_text(Web_Network_URL)
-for link in all_links:
-    print(Web_Network_URL + link)
+for link in visited_links:
+    print('text from: ' + str(Web_Network_URL + link))
     page_text = get_text(Web_Network_URL + link)
     print(page_text)
 

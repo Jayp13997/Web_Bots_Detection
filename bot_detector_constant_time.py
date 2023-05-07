@@ -5,7 +5,7 @@ from statistics import mode
 
 
 #threshhold for human or bot identifier
-threshold = 0.72
+threshold = 0.75
 
 def get_time_list(log_file):
     time_list = []

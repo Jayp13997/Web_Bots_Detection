@@ -4,7 +4,7 @@ import re
 
 
 #threshhold for human or bot identifier
-threshold = 5
+threshold = 2
 
 def get_time_list(log_file):
     time_list = []
