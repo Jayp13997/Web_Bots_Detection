@@ -1,0 +1,19 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:50000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 552-712-836
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:03] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:03] "[36mGET /home.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:06] "GET /page1.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:09] "GET /page4.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:12] "GET /page6.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:15] "GET /page7.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:17] "[36mGET /page2.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:19] "GET /page3.html HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:22] "[36mGET /page6.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:24] "[36mGET /page8.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:26] "[36mGET /bonus.html HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2023 11:32:28] "[36mGET /home.html HTTP/1.1[0m" 304 -

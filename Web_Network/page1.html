@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <!-- onload="writeToFile()" -->
+    <h1>Page 1</h1>
+    <a href="home.html">Home</a><br/>
+    <a href="page2.html">Page 2</a><br/>
+    <a href="page3.html">Page 3</a><br/>
+    <a href="page4.html">Page 4</a><br/>
+
+    <script>
+        function writeToFile(){
+            console.log("started writing");
+            var currentDateTime = new Date();
+            var dateString = currentDateTime.toLocaleDateString();
+            var timeString = currentDateTime.toLocaleTimeString();
+            var dateTimeString = 'page1 ' + dateString + ' ' + timeString;
+            console.log(dateTimeString);
+            var fileText = dateTimeString + '\n';
+            var file = 'test_log_file.txt';
+
+            //var xhr = new XMLHttpRequest();
+            //xhr.open('POST', file, true);
+            //xhr.setRequestHeader('Content-Type', 'text/plain');
+            //xhr.send(fileText);
+            console.log("wriring done");
+        }
+    </script>
+
+    <!-- <script type="text/javascript">
+        function writeToFile() {
+            // let fso = CreateObject("Scripting.FileSystemObject");  
+            // let s = fso.CreateTextFile("test_log.txt", True);
+            // s.writeline("page1 was accessed");
+            // s.Close();
+            console.log("page1");
+
+            const fs = require('fs');
+
+            fs.appendFile('message.txt', 'data to append', function (err) {
+                if (err) throw err;
+                console.log('Saved!');
+            });
+        }
+    </script> -->
+
+
+</body>
+</html>
