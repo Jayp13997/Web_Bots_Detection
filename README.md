@@ -10,3 +10,22 @@ Steps to implement the project:
         ii.	For manual/human logs: http://localhost:8000
     c. To classify the generated logs:
         i. bot_detector_no_time.py, bot_detector_constant_time.py, and bot_detector_random_time.py for each time delay type.
+        
+       
+Required Libraries:
+os
+flask
+logging
+datetime
+bs4 (beautifulsoup)
+requests
+random
+time
+re
+statistics
+matplotlib
+
+
+Setting everything up takes about 5 minutes (assuming you have all the required libraries installed).
+
+Running the scripts takes few seconds with provided threshold value in the file. To get the results using different threshold value, just change the threshold value in the file and rerun the script.
